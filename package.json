@@ -1,0 +1,29 @@
+{
+  "name": "book-app",
+  "version": "1.0.0",
+  "description": "Cool book app",
+  "main": "app.js",
+  "scripts": {
+    "start": "live-server",
+    "build": "rollup -c --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avf-hub/book-app.git"
+  },
+  "keywords": [
+    "books"
+  ],
+  "author": "Andrey Falkovskiy",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/avf-hub/book-app/issues"
+  },
+  "homepage": "https://github.com/avf-hub/book-app#readme",
+  "devDependencies": {
+
+  },
+  "dependencies": {
+    "rollup": "^3.14.0"
+  }
+}
