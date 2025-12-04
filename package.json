@@ -4,7 +4,6 @@
   "description": "Cool book app",
   "main": "app.js",
   "scripts": {
-    "start": "live-server",
     "build": "rollup -c --watch"
   },
   "repository": {
@@ -21,7 +20,9 @@
   },
   "homepage": "https://github.com/avf-hub/book-app#readme",
   "devDependencies": {
-
+    "@eslint/js": "^9.39.1",
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0"
   },
   "dependencies": {
     "rollup": "^3.14.0"
