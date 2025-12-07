@@ -5,3 +5,9 @@
     font-size: 28px;
     font-weight: 700;
 }
+
+.card_grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
